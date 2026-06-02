@@ -13,9 +13,11 @@
   <ItemGroup>
     <ClCompile Include="src\BankAccount.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MainWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\BankAccount.h" />
+    <QtMoc Include="include\MainWindow.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CBDA2036-0AAE-464C-B67F-51F554EE2F1D}</ProjectGuid>
